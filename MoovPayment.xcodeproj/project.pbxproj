@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E15F8802518999A00B78E68 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15F87F2518999A00B78E68 /* PaymentMethodView.swift */; };
+		8E15F8852518D44200B78E68 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15F8842518D44200B78E68 /* CreditCard.swift */; };
+		8E720AFE25133FFA00053F8F /* SuccessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E720AFD25133FFA00053F8F /* SuccessCardView.swift */; };
+		8E720B002513AC3700053F8F /* AddAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E720AFF2513AC3700053F8F /* AddAddressView.swift */; };
+		8E75BE55250B5114005F452E /* RowElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE54250B5114005F452E /* RowElementView.swift */; };
+		8E75BE57250B518E005F452E /* RowElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE56250B518E005F452E /* RowElement.swift */; };
+		8E75BE5A250B565F005F452E /* MembershipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE59250B565F005F452E /* MembershipData.swift */; };
+		8E75BE5D250B56BE005F452E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE5C250B56BE005F452E /* Constants.swift */; };
+		8E75BE5F250B645C005F452E /* OtherOperationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE5E250B645C005F452E /* OtherOperationsData.swift */; };
+		8E75BE61250B678F005F452E /* CorporateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE60250B678F005F452E /* CorporateData.swift */; };
+		8E75BE63250B90C4005F452E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75BE62250B90C4005F452E /* CustomButton.swift */; };
+		8E784F272514A07E00CB16E7 /* PersonalAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E784F262514A07E00CB16E7 /* PersonalAddressView.swift */; };
+		8E784F2A2514A0B700CB16E7 /* CorporateAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E784F292514A0B700CB16E7 /* CorporateAddressView.swift */; };
+		8E784F2F2514D7E000CB16E7 /* AddressTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E784F2E2514D7E000CB16E7 /* AddressTextField.swift */; };
+		8E784F322514E1B100CB16E7 /* PersonalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E784F312514E1B100CB16E7 /* PersonalAddress.swift */; };
+		8E784F362514F20E00CB16E7 /* CorporateAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E784F352514F20E00CB16E7 /* CorporateAddress.swift */; };
 		8EB0A15E250A53000020C67D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0A15D250A53000020C67D /* AppDelegate.swift */; };
 		8EB0A160250A53000020C67D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0A15F250A53000020C67D /* SceneDelegate.swift */; };
 		8EB0A162250A53000020C67D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0A161250A53000020C67D /* ContentView.swift */; };
 		8EB0A164250A53020020C67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0A163250A53020020C67D /* Assets.xcassets */; };
 		8EB0A167250A53020020C67D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0A166250A53020020C67D /* Preview Assets.xcassets */; };
 		8EB0A16A250A53020020C67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB0A168250A53020020C67D /* LaunchScreen.storyboard */; };
+		8EB32343250F4DD200D9495E /* SF-Compact-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB32342250F4DD200D9495E /* SF-Compact-Display-Regular.otf */; };
+		8EB32346250F4DE300D9495E /* SF-Compact-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB32345250F4DE300D9495E /* SF-Compact-Display-Bold.otf */; };
+		8EB32348250F508C00D9495E /* AddCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB32347250F508C00D9495E /* AddCreditCardView.swift */; };
+		8EB3234A250F75D600D9495E /* CreditCardTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB32349250F75D600D9495E /* CreditCardTextField.swift */; };
+		8EB3234C250F935000D9495E /* CreditCardDateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3234B250F935000D9495E /* CreditCardDateTextField.swift */; };
+		8EB3234E250FA05900D9495E /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3234D250FA05900D9495E /* CreditCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E15F87F2518999A00B78E68 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
+		8E15F8842518D44200B78E68 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		8E720AFD25133FFA00053F8F /* SuccessCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCardView.swift; sourceTree = "<group>"; };
+		8E720AFF2513AC3700053F8F /* AddAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressView.swift; sourceTree = "<group>"; };
+		8E75BE54250B5114005F452E /* RowElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowElementView.swift; sourceTree = "<group>"; };
+		8E75BE56250B518E005F452E /* RowElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowElement.swift; sourceTree = "<group>"; };
+		8E75BE59250B565F005F452E /* MembershipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipData.swift; sourceTree = "<group>"; };
+		8E75BE5C250B56BE005F452E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8E75BE5E250B645C005F452E /* OtherOperationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherOperationsData.swift; sourceTree = "<group>"; };
+		8E75BE60250B678F005F452E /* CorporateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateData.swift; sourceTree = "<group>"; };
+		8E75BE62250B90C4005F452E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8E784F262514A07E00CB16E7 /* PersonalAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAddressView.swift; sourceTree = "<group>"; };
+		8E784F292514A0B700CB16E7 /* CorporateAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateAddressView.swift; sourceTree = "<group>"; };
+		8E784F2E2514D7E000CB16E7 /* AddressTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTextField.swift; sourceTree = "<group>"; };
+		8E784F312514E1B100CB16E7 /* PersonalAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAddress.swift; sourceTree = "<group>"; };
+		8E784F352514F20E00CB16E7 /* CorporateAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorporateAddress.swift; sourceTree = "<group>"; };
 		8EB0A15A250A53000020C67D /* MoovPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoovPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB0A15D250A53000020C67D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB0A15F250A53000020C67D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,12 @@
 		8EB0A166250A53020020C67D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EB0A169250A53020020C67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EB0A16B250A53020020C67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EB32342250F4DD200D9495E /* SF-Compact-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Regular.otf"; sourceTree = "<group>"; };
+		8EB32345250F4DE300D9495E /* SF-Compact-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Bold.otf"; sourceTree = "<group>"; };
+		8EB32347250F508C00D9495E /* AddCreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCreditCardView.swift; sourceTree = "<group>"; };
+		8EB32349250F75D600D9495E /* CreditCardTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardTextField.swift; sourceTree = "<group>"; };
+		8EB3234B250F935000D9495E /* CreditCardDateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDateTextField.swift; sourceTree = "<group>"; };
+		8EB3234D250FA05900D9495E /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +81,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E75BE53250B50FC005F452E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0A161250A53000020C67D /* ContentView.swift */,
+				8E75BE54250B5114005F452E /* RowElementView.swift */,
+				8EB32347250F508C00D9495E /* AddCreditCardView.swift */,
+				8EB3234D250FA05900D9495E /* CreditCardView.swift */,
+				8E720AFD25133FFA00053F8F /* SuccessCardView.swift */,
+				8EB0A15D250A53000020C67D /* AppDelegate.swift */,
+				8E720AFF2513AC3700053F8F /* AddAddressView.swift */,
+				8E784F262514A07E00CB16E7 /* PersonalAddressView.swift */,
+				8E784F292514A0B700CB16E7 /* CorporateAddressView.swift */,
+				8E15F87F2518999A00B78E68 /* PaymentMethodView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E75BE58250B5610005F452E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E75BE59250B565F005F452E /* MembershipData.swift */,
+				8E75BE5E250B645C005F452E /* OtherOperationsData.swift */,
+				8E75BE60250B678F005F452E /* CorporateData.swift */,
+				8E75BE56250B518E005F452E /* RowElement.swift */,
+				8E784F312514E1B100CB16E7 /* PersonalAddress.swift */,
+				8E784F352514F20E00CB16E7 /* CorporateAddress.swift */,
+				8E15F8842518D44200B78E68 /* CreditCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E75BE5B250B56A3005F452E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8E75BE5C250B56BE005F452E /* Constants.swift */,
+				8E75BE62250B90C4005F452E /* CustomButton.swift */,
+				8EB32349250F75D600D9495E /* CreditCardTextField.swift */,
+				8EB3234B250F935000D9495E /* CreditCardDateTextField.swift */,
+				8E784F2E2514D7E000CB16E7 /* AddressTextField.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		8EB0A151250A53000020C67D = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +143,11 @@
 		8EB0A15C250A53000020C67D /* MoovPayment */ = {
 			isa = PBXGroup;
 			children = (
-				8EB0A15D250A53000020C67D /* AppDelegate.swift */,
+				8EB32341250F4DAE00D9495E /* Fonts */,
+				8E75BE5B250B56A3005F452E /* Utility */,
+				8E75BE58250B5610005F452E /* Model */,
+				8E75BE53250B50FC005F452E /* View */,
 				8EB0A15F250A53000020C67D /* SceneDelegate.swift */,
-				8EB0A161250A53000020C67D /* ContentView.swift */,
 				8EB0A163250A53020020C67D /* Assets.xcassets */,
 				8EB0A168250A53020020C67D /* LaunchScreen.storyboard */,
 				8EB0A16B250A53020020C67D /* Info.plist */,
@@ -73,6 +162,15 @@
 				8EB0A166250A53020020C67D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EB32341250F4DAE00D9495E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8EB32342250F4DD200D9495E /* SF-Compact-Display-Regular.otf */,
+				8EB32345250F4DE300D9495E /* SF-Compact-Display-Bold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +200,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Mert Köksal";
 				TargetAttributes = {
 					8EB0A159250A53000020C67D = {
@@ -133,8 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB32343250F4DD200D9495E /* SF-Compact-Display-Regular.otf in Resources */,
 				8EB0A16A250A53020020C67D /* LaunchScreen.storyboard in Resources */,
 				8EB0A167250A53020020C67D /* Preview Assets.xcassets in Resources */,
+				8EB32346250F4DE300D9495E /* SF-Compact-Display-Bold.otf in Resources */,
 				8EB0A164250A53020020C67D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +247,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB0A15E250A53000020C67D /* AppDelegate.swift in Sources */,
+				8E75BE57250B518E005F452E /* RowElement.swift in Sources */,
 				8EB0A160250A53000020C67D /* SceneDelegate.swift in Sources */,
+				8E784F272514A07E00CB16E7 /* PersonalAddressView.swift in Sources */,
+				8E15F8852518D44200B78E68 /* CreditCard.swift in Sources */,
+				8E784F362514F20E00CB16E7 /* CorporateAddress.swift in Sources */,
+				8EB3234C250F935000D9495E /* CreditCardDateTextField.swift in Sources */,
+				8E75BE5A250B565F005F452E /* MembershipData.swift in Sources */,
+				8E784F322514E1B100CB16E7 /* PersonalAddress.swift in Sources */,
+				8E15F8802518999A00B78E68 /* PaymentMethodView.swift in Sources */,
+				8E784F2A2514A0B700CB16E7 /* CorporateAddressView.swift in Sources */,
+				8EB32348250F508C00D9495E /* AddCreditCardView.swift in Sources */,
+				8E784F2F2514D7E000CB16E7 /* AddressTextField.swift in Sources */,
+				8E75BE63250B90C4005F452E /* CustomButton.swift in Sources */,
+				8E75BE5F250B645C005F452E /* OtherOperationsData.swift in Sources */,
+				8E75BE61250B678F005F452E /* CorporateData.swift in Sources */,
+				8EB3234A250F75D600D9495E /* CreditCardTextField.swift in Sources */,
+				8E720B002513AC3700053F8F /* AddAddressView.swift in Sources */,
+				8E75BE5D250B56BE005F452E /* Constants.swift in Sources */,
+				8EB3234E250FA05900D9495E /* CreditCardView.swift in Sources */,
+				8E720AFE25133FFA00053F8F /* SuccessCardView.swift in Sources */,
 				8EB0A162250A53000020C67D /* ContentView.swift in Sources */,
+				8E75BE55250B5114005F452E /* RowElementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +312,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +373,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
